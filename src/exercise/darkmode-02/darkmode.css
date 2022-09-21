@@ -1,0 +1,46 @@
+.lightMode{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-color:#ffffff;
+}
+.darkMode{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-color:#000000;
+}
+button{
+    flex:1;
+    position:absolute;
+    justify-content:flex-center;
+    align-items:flex-center;
+    border:2px solid;
+    padding:1rem;
+    font-weight:800;
+    height:50px;
+    top:50%; 
+    cursor:pointer;
+}
+.darkMode-button{ 
+    left:50%;
+    color:#ffffff;
+    border-color:#ffffff;
+    background-color:#000000;
+}
+
+.lightMode-button{
+    right:50%;
+    color:#000000;
+    border-color:#000000;
+    background-color:#ffffff;
+}
+
+
+ 
+
+

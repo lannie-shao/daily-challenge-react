@@ -1,0 +1,26 @@
+.color-square{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-center;
+    align-items:flex-center;
+    margin:1rem;
+    list-style:none;
+
+}
+
+.top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:space-between; 
+}
+h3{
+    flex:1;
+    text-align:center;
+    color:#f0f2f0;
+    font-size:18px;
+    font-weight:600;
+    margin:0.5rem;
+    padding:1rem;
+}
+
