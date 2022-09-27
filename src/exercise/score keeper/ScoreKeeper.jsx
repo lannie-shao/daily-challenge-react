@@ -5,7 +5,7 @@ const ScoreKeeper = () => {
     parseInt(localStorage.getItem('score'))||0);
 
   useEffect(()=>{
-    localStorage.setItem=('score',score)
+    localStorage.setItem('score',score)
   },[score])
 
   return (
