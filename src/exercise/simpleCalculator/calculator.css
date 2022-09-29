@@ -1,0 +1,31 @@
+.form__container{
+    width:90%;
+    margin:1rem auto;
+    height:100%;
+}
+
+.num1,.num2,.action,label{
+    width:100%;
+    display:flex;
+    flex:1;
+    font-weight:500;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:flex-center;
+    margin:1rem;
+}
+
+button{
+    margin-right:1rem;
+    cursor:pointer;
+}
+
+input{
+    flex:1;
+    margin:0 auto;
+    background-color:orange;
+    padding:0.5rem;
+    cursor:pointer;
+}
+
+
