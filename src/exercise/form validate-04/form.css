@@ -1,0 +1,11 @@
+.padding__section{
+    padding:3rem;
+    text-align:center;
+}
+.flex__center{
+    margin:2rem;
+}
+button{
+    width:100px; 
+    padding:0.5rem;
+}

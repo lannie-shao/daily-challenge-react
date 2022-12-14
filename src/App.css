@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+margin:0;
+padding:0;
 }
 
 .flex__center{
@@ -8,3 +9,9 @@
   justify-content:flex-center;
   align-items:flex-center;
 }
+
+/* .grids{
+  width:250px;
+  display:flex;
+  flex-wrap:wrap;
+} */
